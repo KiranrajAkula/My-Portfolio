@@ -72,7 +72,7 @@ section .title::after{
     bottom: -8px;
     left: 50%;
     font-size: 20px;
-    color: #dee600;
+    color: #ecf161;
     padding: 0 5px;
     background: #fff;
     transform: translateX(-50%);
@@ -89,7 +89,7 @@ section .title::after{
 }
 .navbar.sticky{
     padding: 15px 0;
-    background: #dee600;
+    background: #ecf161;
 }
 .navbar .max-width{
     display: flex;
@@ -102,7 +102,7 @@ section .title::after{
     font-weight: 600;
 }
 .navbar .logo a span{
-    color: #dee600;
+    color: #ecf161;
     transition: all 0.3s ease;
 }
 .navbar.sticky .logo a span{
@@ -121,10 +121,10 @@ section .title::after{
     transition: color 0.3s ease;
 }
 .navbar .menu li a:hover{
-    color: #dee600;
+    color: #ecf161;
 }
 .navbar.sticky .menu li a:hover{
-    color: #1a171765;
+    color: #0e0c0ce4;
 }
 
 /* menu btn styling */
@@ -138,7 +138,7 @@ section .title::after{
     position: fixed;
     height: 45px;
     width: 42px;
-    background: #dee600;
+    background: #ecf161;
     right: 30px;
     bottom: 10px;
     text-align: center;
@@ -197,7 +197,7 @@ section .title::after{
     margin: 5px 0;
 }
 .home .home-content .text-3 span{
-    color: #dee600;
+    color: #ecf161;
     font-weight: 600;
 }
 .home .home-content a{
@@ -208,12 +208,12 @@ section .title::after{
     margin-top: 20px;
     font-weight: 400;
     border-radius: 6px;
-    border: 2px solid #dee600;
+    border: 2px solid #ecf161;
     transition: all 0.3s ease;
     background: none;
 }
 .home .home-content a:hover{
-    background: #dee600;
+    background: #ecf161;
 }
 
 /* about section styling */
@@ -225,21 +225,30 @@ section .title::after{
 	font-weight: 600;
 }
 .about .about-content .left{
-    width: 30%;
+    width: 10%;
+    
+    
 }
 .about .about-content .left img{
-    height: 340px;
-    width: 340px;
+    height: 350px;
+    width: 300px;
     object-fit: scale-down;
-    border-radius: 10px;
+    border: 10px;
+    box-shadow: 0 0 15px yellow;
+   
 }
 .about .about-content .right{
     width: 70%;
+    border-style: none;
+    border: solid 3px yellow;
+    padding: 30px;
+    box-shadow: 0 0 15px yellow;
+   
 }
 .about .about-content .right .text{
     font-size: 25px;
     font-weight: 600;
-    margin-bottom: 10px;
+    margin-left: 40px;
 }
 .about .about-content .right .text span{
     color: #dee600;
@@ -292,18 +301,19 @@ section .title::after{
     transition: all 0.3s ease;
 }
 .projects .proj-content .card:hover{
-    background: #dee600;
+    background: #f7fc6f;
 }
 .projects .proj-content .card .box{
     transition: all 0.3s ease;
 }
 .projects .proj-content .card:hover .box{
     transform: scale(1.05);
-    color: rgba(19, 15, 15, 0.482);
+    color: black;
+   
 }
 .projects .proj-content .card i{
     font-size: 55px;
-    color: #dee600;
+    color: #ecf161;
     transition: color 0.3s ease;
 }
 .projects .proj-content .card:hover i{
@@ -325,6 +335,8 @@ section .title::after{
 }
 .skills .skills-content .column{
     width: calc(70% - 30px);
+    box-shadow: 0 0 15px yellow;
+    padding: 40px;
 }
 .skills .skills-content .left .text{
     font-size: 20px;
@@ -370,7 +382,8 @@ section .title::after{
     transition: all 0.3s ease;
 }
 .Education .carousel .card:hover{
-    background: #dee600;
+    background: #ecf161;
+    color: black;
 }
 .Education .carousel .card .box{
     display: flex;
@@ -430,6 +443,9 @@ section .title::after{
 }
 .contact .contact-content .column{
     width: calc(50% - 30px);
+    box-shadow: 0 0 15px yellow;
+    padding: 40px;
+    
 }
 .contact .contact-content .text{
     font-size: 20px;
