@@ -444,12 +444,12 @@ section .title::after{
 .contact .contact-content .column{
     width: calc(50% - 30px);
     box-shadow: 0 0 15px yellow;
-    padding: 40px;
+    padding: 45px;
     
 }
 .contact .contact-content .text{
-    font-size: 20px;
-    font-weight: 600;
+    font-size: 15px;
+    font-weight: 500;
     margin-bottom: 10px;
 }
 .contact .contact-content .left p{
