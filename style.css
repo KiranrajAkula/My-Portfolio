@@ -334,7 +334,7 @@ section .title::after{
 	font-weight: 600;	
 }
 .skills .skills-content .column{
-    width: calc(70% - 30px);
+    width: calc(100% - 20px);
     box-shadow: 0 0 15px yellow;
     padding: 40px;
 }
