@@ -220,7 +220,13 @@ section .title::after{
 .about h2{
 	font-weight: 700;
 }
+
+.about .title::before{
+    background: white ;
+    
+}
 .about .title::after{
+    background: #111;
     content: "WHO  I  AM";
 	font-weight: 600;
 }
@@ -242,6 +248,7 @@ section .title::after{
     border: solid px #00D1D1;
     padding: 30px;
     box-shadow: 0 0 15px #00D1D1;
+    
    
 }
 .about .about-content .right .text{
@@ -276,7 +283,7 @@ section .title::after{
 .projects h2{
 	font-weight: 700;
 }
-.projects, .Education{
+.projects, .Education ,.about, .skills, .contact{
     color: #fff;
     background: #111;
 }
@@ -329,9 +336,16 @@ section .title::after{
 .skills h2{
 	font-weight: 700;
 }
+
+.skills .title::before{
+    background: white ;
+    
+}
+
 .skills .title::after{
     content: "WHAT I KNOW";
-	font-weight: 600;	
+	font-weight: 600;
+    background: #111;	
 }
 .skills .skills-content .column{
     width: calc(100% - 20px);
@@ -370,7 +384,7 @@ section .title::after{
 	font-weight: 700;
 }
 .Education .title::after{
-    content: " ";
+    content: "WHAT I STUDIED ";
 	font-weight: 600;
 }
 .Education .carousel .card{
@@ -383,7 +397,7 @@ section .title::after{
 }
 .Education .carousel .card:hover{
     background: #00D1D1;
-    color: black;
+    color: white;
     box-shadow: 0 0 20px #00D1D1;
 }
 .Education .carousel .card .box{
@@ -438,9 +452,16 @@ section .title::after{
 .contact h2{
 	font-weight: 700;
 }
+
+.contact .title::before{
+    background: white ;
+    
+}
+
 .contact .title::after{
     content: "GET IN TOUCH";
 	font-weight: 600;
+    background: #111;
 }
 .contact .contact-content .column{
     width: calc(50% - 30px);
@@ -475,7 +496,7 @@ section .title::after{
     font-weight: 500;
 }
 .contact .contact-content .info .sub-title{
-    color: #333;
+    color: white;
 }
 .contact .right form .fields{
     display: flex;
@@ -495,6 +516,8 @@ section .title::after{
 }
 .contact .right form .field input,
 .contact .right form .textarea textarea{
+    background:rgb(10, 10, 10);
+    color: white;
     height: 100%;
     width: 100%;
     border: 1px solid lightgrey;
@@ -535,10 +558,11 @@ section .title::after{
 .right form .button-area button:hover{
   color: #00D1D1;
   background: none;
+  border: 2px solid #00D1D1;
 }
 /* footer section styling */
 footer{
-    background: #111;
+    background: #202020;
     padding: 15px 23px;
     color: #fff;
     text-align: center;
