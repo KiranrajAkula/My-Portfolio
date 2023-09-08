@@ -239,7 +239,7 @@ section .title::after{
 .about .about-content .right{
     width: 70%;
     border-style: none;
-    border: solid 3px #00D1D1;
+    border: solid px #00D1D1;
     padding: 30px;
     box-shadow: 0 0 15px #00D1D1;
    
@@ -264,7 +264,7 @@ section .title::after{
     padding: 10px 30px;
     margin-top: 20px;
     border-radius: 6px;
-    border: 2px solid #00D1D1;
+    box-shadow: 0 0 15px #00D1D1;
     transition: all 0.3s ease;
 }
 .about .about-content .right a:hover{
@@ -301,6 +301,7 @@ section .title::after{
 }
 .projects .proj-content .card:hover{
     background: #00D1D1;
+    box-shadow: 0 0 15px #00D1D1;
 }
 .projects .proj-content .card .box{
     transition: all 0.3s ease;
@@ -383,6 +384,7 @@ section .title::after{
 .Education .carousel .card:hover{
     background: #00D1D1;
     color: black;
+    box-shadow: 0 0 20px #00D1D1;
 }
 .Education .carousel .card .box{
     display: flex;
