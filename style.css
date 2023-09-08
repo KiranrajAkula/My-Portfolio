@@ -384,7 +384,7 @@ section .title::after{
 	font-weight: 700;
 }
 .Education .title::after{
-    content: "WHAT I STUDIED ";
+    content: "WHAT I STUDY ";
 	font-weight: 600;
 }
 .Education .carousel .card{
